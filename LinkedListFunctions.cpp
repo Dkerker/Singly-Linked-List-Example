@@ -88,7 +88,7 @@ void static deleteList(Node* start)
 	}
 }
 
-void main()
+int main()
 {
 	string input;
 	cout << "Please enter a string and I will reverse it: ";
@@ -101,4 +101,5 @@ void main()
 	printList(reversedString); // Print the reversed list
 
 	deleteList(reversedString); // Delete the created nodes
+	return 0;
 }
